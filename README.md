@@ -6,6 +6,8 @@ beautiful banners at the tops of pages.
 
 ## Setup
 
+    pip install mezzanine-slides
+
 Add `mezzanine_slides` to your `INSTALLED_APPS` and syncdb. Migrations are
 included if you use South. You can use the templates included by running
 `collecttemplates mezzanine_slides` but this will overwrite any changes you have
