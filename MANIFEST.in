@@ -1,0 +1,3 @@
+include README.md
+recursive-include mezzanine_slides/static *
+recursive-include mezzanine_slides/templates *
