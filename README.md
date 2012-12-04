@@ -4,16 +4,16 @@ Add simple slide functionality to your Mezzanine based website allowing for
 beautiful banners at the tops of pages.
 
 
-# Setup
+## Setup
 
 Add `mezzanine_slides` to your `INSTALLED_APPS` and syncdb. Migrations are
 included if you use South. You can use the templates included by running
-`collecttemplates` but this will overwrite any changes you have made to your
-`base.html` and `pages/page.html` templates. If you wish to add the template
-markup yourself see Templates below.
+`collecttemplates mezzanine_slides` but this will overwrite any changes you have
+made to your `base.html` and `pages/page.html` templates. If you wish to add the
+template markup yourself see Templates below.
 
 
-# Templates
+## Templates
 
 Add this to your `pages/page.html` anywhere as long as it's not inside another
 block:
