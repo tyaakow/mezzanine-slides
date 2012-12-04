@@ -65,6 +65,12 @@ original Mezzanine as much as possible, here is an excerpt of the area:
     });
     </script>
 
+
+## Credits
+
+Thanks to [Viljami Salminen][0] for his great [ResponsiveSlides.js][1] plugin.
+
+
 ## License (Simplified BSD)
 
 Copyright (c) Isaac Bythewood  
@@ -90,3 +96,7 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+[0]: http://viljamis.com/
+[1]: http://responsive-slides.viljamis.com/
