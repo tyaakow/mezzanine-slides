@@ -21,7 +21,7 @@ block:
     <div class="row">
     <div class="span12">
         <ul class="rslides">{% for image in page.slide_set.all %}
-            <li><img src="{{ image.file.url }}" alt="{{ image.description }}"/></li>
+            <li><img src="{{ MEDIA_URL }}{% thumbnail image.file 940 300 %}" alt="{{ image.description }}"/></li>
         {% endfor %}</ul>
     </div>
     </div>
